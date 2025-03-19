@@ -8,5 +8,5 @@ let excitedWelcomeMessage = `WELCOME TO FLATBOOK, , ${currentUser}!`;
 
 const oldeUser = "RO"
 
-let shortGreeting = `Welcome, " ${oldeUser}!`;
+let shortGreeting = `Welcome, " ${currentUser.slice(0,1)}!`;
 
